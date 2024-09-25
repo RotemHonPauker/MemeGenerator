@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Meme Generator</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <img class="logo">
+        <button class="manu-btn"></button>
+        <nav>
+            <button>Gallery</button>
+            <button>Memes</button>
+            <button>About</button>
+        </nav>
+    </header>
+    <!-- GALLERY -->
+    <section class="galery">
+        <div class="filter">
+            <div class="search-bar">
+                <input type="text" list="search-words" placeholder="Enter search keyword">
+                <datalist id="search-words">
+                    <option value="dog"></option>
+                    <i class="serach-icon"></i>
+                </datalist>
+            </div>
+            <div class="key-words">
+                <button>Dog</button>
+            </div>
+            <div class="more-key-words">
+                <button>More...</button>
+            </div>
+        </div>
+        <div class="image-board">
+            <button class="load-image">Load image</button>
+            <img>
+        </div>
+        <div class="self-intro">
+            <img>
+            <hgroup>
+                <h2>Monica Geller</h2>
+                <h3>is a fictional character, one of the six main characters
+                    who appears on the American show Friends
+                </h3>
+            </hgroup>
+            <div class="contact-links">
+                <a class="linkedin"></a>
+                <a class="facebook"></a>
+                <a class="github"></a>
+            </div>
+        </div>
+    </section>
+    <!-- EDITOR -->
+    <section class="editor">
+        <div class="canvas-board">
+            <canvas></canvas>
+        </div>
+        <div class="tools-board">
+            <input type="text">
+            <div class="main-tools">
+                <button class="switch-selected-line"></button>
+                <button class="add-line"></button>
+                <button class="delete-line"></button>
+            </div>
+            <div class="design-tools">
+                <button class="bigger"></button>
+                <button class="smaller"></button>
+                <button class="align-left"></button>
+                <button class="align-center"></button>
+                <button class="align-right"></button>
+                <select class="font-selector">
+                    <option value="impact"></option>
+                    <option value="ariel"></option>
+                </select>
+                <input class="stroke-color" type="color">
+                <input class="fill-color" type="color">
+            </div>
+            <div class="emogi-bar">
+                <button class="backward"></button>
+                <div class="emogi-displayed">
+                    <button class="emogi"></button>
+                </div>
+                <button class="forward"></button>
+            </div>
+            <div class="actions-tools">
+                <button class="save">Save to Gallery</button>
+                <button class="doenlowd">Download</button>
+                <button class="share">Share on Facebook</button>
+            </div>
+        </div>
+    </section>
+    <!-- SAVED MEMES -->
+    <section class="saved-memes"></section>
+    <!-- ABOUT -->
+    <section class="about"></section>
+    <!-- FOOTER -->
+    <footer>
+        <img class="logo">
+        <h6>all rights reserved 2024</h6>
+    </footer>
+    <!-- SCRIPT -->
+    <script src="js/main.js"> </script>
+</body>
+
+</html>

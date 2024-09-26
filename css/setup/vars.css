@@ -1,0 +1,15 @@
+:root {
+    /* PALETTE */
+    --clrPri: #FF7F00;
+    --clrSec: #E3E3E3;
+    --clrFontPri: #ffffff;
+    --clrFontSec: #000000;
+
+    /* layout */
+    --headerHeight: 100px;
+
+    /* mq */
+    --l: 1060px;
+    --m: 860px;
+    --s: 600px;
+}

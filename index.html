@@ -12,23 +12,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
             rel="stylesheet">
     </div>
-    <div class="emoji-source">
-        Icons made by
-        <a href="https://www.freepik.com" title="Freepik">Freepik</a>
-        <a href="https://www.flaticon.com/authors/vectorslab" title="Vectorslab">Vectorslab</a>
-        <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a>
-        <a href="https://www.flaticon.com/authors/bankseengern" title="BankSeeNgern">BankSeeNgern</a>
-        <a href="https://www.flaticon.com/authors/park-jisun" title="Park Jisun">Park Jisun</a>
-        from
-        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-    </div>
     <title>Meme Generator</title>
 </head>
 
-<body onload="onInit()">
+<body onload="onInitGallery()">
     <!-- HEADER -->
-    <header>
-        <img class="logo" src="/img/logo/LOGO.png">
+    <header class="main-header flex space-between align-center">
+        <img class="logo" src="/img/logo/LOGO.png" onclick="onInitGallery()">
         <button class="manu-btn"></button>
         <nav>
             <button>Gallery</button>
@@ -119,6 +109,8 @@
     <footer>
         <img class="logo">
         <h6>all rights reserved 2024</h6>
+        Icons from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
     </footer>
     <!-- SCRIPT -->
     <script src="js/services/storage.service.js"> </script>

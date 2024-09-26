@@ -6,13 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <div class="google-fonts">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+    </div>
+    <div class="emoji-source">
+        Icons made by
+        <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+        <a href="https://www.flaticon.com/authors/vectorslab" title="Vectorslab">Vectorslab</a>
+        <a href="https://www.flaticon.com/authors/surang" title="surang">surang</a>
+        <a href="https://www.flaticon.com/authors/bankseengern" title="BankSeeNgern">BankSeeNgern</a>
+        <a href="https://www.flaticon.com/authors/park-jisun" title="Park Jisun">Park Jisun</a>
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div>
     <title>Meme Generator</title>
 </head>
 
-<body>
+<body onload="onInit()">
     <!-- HEADER -->
     <header>
-        <img class="logo">
+        <img class="logo" src="/img/logo/LOGO.png">
         <button class="manu-btn"></button>
         <nav>
             <button>Gallery</button>
@@ -81,10 +97,10 @@
                 <input class="stroke-color" type="color">
                 <input class="fill-color" type="color">
             </div>
-            <div class="emogi-bar">
+            <div class="emoji-bar">
                 <button class="backward"></button>
-                <div class="emogi-displayed">
-                    <button class="emogi"></button>
+                <div class="emoji-displayed">
+                    <button class="emoji"></button>
                 </div>
                 <button class="forward"></button>
             </div>
@@ -105,7 +121,11 @@
         <h6>all rights reserved 2024</h6>
     </footer>
     <!-- SCRIPT -->
-    <script src="js/main.js"> </script>
+    <script src="js/services/storage.service.js"> </script>
+    <script src="js/services/gallery.service.js"> </script>
+    <script src="js/services/meme.service.js"> </script>
+    <script src="js/gallery.controller.js"> </script>
+    <script src="js/meme.controller.js"> </script>
 </body>
 
 </html>

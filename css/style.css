@@ -1,0 +1,9 @@
+
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100; 
+  /* Use a value from 100 to 900  */
+  font-style: normal;
+}

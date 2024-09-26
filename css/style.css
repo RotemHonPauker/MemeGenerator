@@ -2,6 +2,9 @@
 @import url("setup/vars.css");
 @import url("setup/typography.css");
 
+/* MEDIA QUERIES */
+@import url("setup/mq.css");
+
 /* BASICS  */
 @import url("basics/base.css");
 @import url("basics/layout.css");
@@ -13,6 +16,3 @@
 @import url("components/gallery.css");
 @import url("components/editor.css");
 @import url("components/footer.css");
-
-/* MEDIA QUERIES */
-@import url("setup/mq.css");
